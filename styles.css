@@ -43,12 +43,54 @@ nav {
 
 p {
   display: flex;
+  flex-direction: column;
+  margin: 3px;
 }
 
 section {
   justify-content: center;
   display: flex;
+  flex-direction: column;
 
+}
+
+.streamer-name {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.date-achieved {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.all-time,
+.position {
+  flex-direction: column;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+/* .visit-page {
+  flex-direction: column;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  align-self: flex-start;
+  justify-content: center;
+  display: flex;
+
+
+} */
+
+.position {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .background {
@@ -60,8 +102,7 @@ section {
 
 .card {
   display: flex;
-  height: 250px;
-  width: 200px;
+  width: 250px;
   align-self: center;
   margin: 25px;
   background-color: yellow;
@@ -71,16 +112,18 @@ section {
 .card-header {
   align-self: flex-start;
   height: 80px;
-  width: 200px;
+  width: 250px;
   background-color: red;
   border-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-url {
   align-self: center;
   background-color: black;
-  width: 160px;
-  height: 40px;
+  width: 200px;
+  height: 50px;
 
 }
 
