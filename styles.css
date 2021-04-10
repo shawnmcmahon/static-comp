@@ -106,7 +106,7 @@ section {
 .position {
   flex-direction: column;
   margin-bottom: 0px;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-top: 20px;
   align-self: flex-end;
   color: white;
@@ -134,7 +134,7 @@ section {
   height: 100%;
   width: 100%;
   flex-direction: column;
-  background-color: #DDFDF1;
+  background-color: white;
 }
 
 
@@ -143,13 +143,14 @@ section {
   width: 250px;
   align-self: center;
   margin: 15px;
-  background-color: white;
+  background-color: #F2F2F3;
+  color: whiite;
 
 }
 
 .card-header {
   align-self: flex-start;
-  height: 80px;
+  height: 100px;
   width: 250px;
   background-color: #FC0359;
   border-color: red;
@@ -159,10 +160,10 @@ section {
 
 .card-url {
   align-self: center;
-  background-color: #F10E62;
+  background-color: white;
   width: 200px;
   height: 50px;
-  color: white;
+  color: black;
   font-size: 12px;
   justify-content: flex-start;
 
@@ -208,6 +209,27 @@ section {
   padding-left: 3px;
   padding-top: 3px;
 }
+
+.ninja {
+  background-image: url('./assets/header_ninja.png');
+}
+
+.ludwig {
+  background-image: url('./assets/header_ludwig.png');
+}
+
+.ranboolive {
+  background-image: url('./assets/header_ranboolive.png')
+}
+
+.shroud {
+  background-image: url('./assets/header_shroud.png');
+}
+
+.summit {
+  background-image: url('./assets/header_summit.png');
+}
+
 
 
 
