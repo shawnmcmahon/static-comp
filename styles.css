@@ -12,14 +12,6 @@ main {
   overflow: scroll;
 }
 
-header {
-  background-color: blue;
-  height: 15vh;
-  width: 100%;
-  margin-bottom: 15px;
-  flex-direction: column;
-  display: flex;
-}
 
 article {
   justify-content: center;
@@ -34,19 +26,29 @@ button {
 
 }
 
-section {
-  justify-content: center;
+header {
+  background-color: blue;
+  height: 15vh;
+  width: 100%;
+  /* flex-direction: column; */
   display: flex;
+}
 
+nav {
+  display: flex;
+  /* align-self: baseline; */
+  height: 15vh;
+  width: 100%;
 }
 
 p {
   display: flex;
 }
 
-nav {
+section {
+  justify-content: center;
   display: flex;
-  align-self: baseline;
+
 }
 
 .background {
@@ -61,14 +63,14 @@ nav {
   height: 250px;
   width: 200px;
   align-self: center;
-  margin: 15px;
+  margin: 25px;
   background-color: yellow;
 
 }
 
 .card-header {
   align-self: flex-start;
-  height: 60px;
+  height: 80px;
   width: 200px;
   background-color: red;
   border-color: red;
@@ -86,10 +88,8 @@ nav {
   background-color: green;
   height: 10vh;
   width: 150px;
-  align-self: flex-end;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row-reverse;
   background-color: inherit;
 }
 
@@ -97,11 +97,28 @@ nav {
   color: white;
   margin: 0px;
   width: 50px;
-  flex-direction: row;
+  /* flex-direction: row; */
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
 }
+
+.streamers {
+  font-size: 22px;
+}
+
+
+.user-menu {
+  color: white;
+  margin: 0px;
+  width: 150px;
+  /* flex-direction: row; */
+  font-size: 12px;
+  margin: 5px;
+  background-color: inherit;
+
+}
+
 
 
 
