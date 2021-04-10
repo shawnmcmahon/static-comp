@@ -26,6 +26,14 @@ button {
 
 }
 
+div {
+  /* background-color: purple;
+  flex-direction: row;
+  display: flex;
+  width: 50px;
+  margin-top: 30px; */
+}
+
 header {
   background-color: blue;
   height: 15vh;
@@ -65,27 +73,54 @@ section {
   font-size: 10px;
   padding-left: 10px;
   padding-bottom: 15px;
+  margin-top: 0px;
 }
+
+.most-played-game,
+.sub {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.sub-count {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+
+}
+
+.game-name {
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+
+
 
 .all-time,
 .position {
   flex-direction: column;
   margin-bottom: 0px;
-  margin-right: 10px;
-  margin-top: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
   align-self: flex-end;
 }
 
 /* .visit-page {
-  flex-direction: column;
   margin-bottom: 0px;
   margin-right: 10px;
-  align-self: flex-start;
-  justify-content: center;
+  margin-top: 50px;
+  margin-left: 10px;
   display: flex;
+  align-self: flex-end;
 
 
 } */
+
 
 .position {
   font-size: 30px;
@@ -124,6 +159,9 @@ section {
   background-color: black;
   width: 200px;
   height: 50px;
+  color: white;
+  font-size: 12px;
+  justify-content: flex-start;
 
 }
 
@@ -148,6 +186,7 @@ section {
 
 .streamers {
   font-size: 22px;
+  padding-top: 20px;
 }
 
 
@@ -160,6 +199,11 @@ section {
   margin: 5px;
   background-color: inherit;
 
+}
+
+.url {
+  padding-left: 3px;
+  padding-top: 3px;
 }
 
 
