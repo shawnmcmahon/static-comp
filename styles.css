@@ -35,7 +35,7 @@ div {
 }
 
 header {
-  background-color: blue;
+  background-color: #10EFA1;
   height: 15vh;
   width: 100%;
   /* flex-direction: column; */
@@ -89,6 +89,7 @@ section {
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 0px;
+  color: #EF105E;
 
 }
 
@@ -108,6 +109,7 @@ section {
   margin-right: 20px;
   margin-top: 20px;
   align-self: flex-end;
+  color: white;
 }
 
 /* .visit-page {
@@ -132,6 +134,7 @@ section {
   height: 100%;
   width: 100%;
   flex-direction: column;
+  background-color: #DDFDF1;
 }
 
 
@@ -139,8 +142,8 @@ section {
   display: flex;
   width: 250px;
   align-self: center;
-  margin: 25px;
-  background-color: yellow;
+  margin: 15px;
+  background-color: white;
 
 }
 
@@ -148,7 +151,7 @@ section {
   align-self: flex-start;
   height: 80px;
   width: 250px;
-  background-color: red;
+  background-color: #FC0359;
   border-color: red;
   display: flex;
   flex-direction: column;
@@ -156,7 +159,7 @@ section {
 
 .card-url {
   align-self: center;
-  background-color: black;
+  background-color: #F10E62;
   width: 200px;
   height: 50px;
   color: white;
