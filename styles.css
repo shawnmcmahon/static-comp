@@ -1,0 +1,49 @@
+@media screen and (max-width: 40em) {
+
+html,
+body
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Lato', sans-serif;
+  overflow: scroll;
+}
+
+header {
+  background-color: blue;
+  align-items: flex-start;
+  height: 10vh;
+  width: 100%;
+}
+
+article {
+  justify-content: center;
+  display: flex;
+  background-color: yellow;
+}
+
+section {
+
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+
+.card {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  margin: 15px;
+
+}
+
+
+
+}
