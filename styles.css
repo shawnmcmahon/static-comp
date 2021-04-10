@@ -15,9 +15,10 @@ main {
 header {
   background-color: blue;
   align-items: flex-start;
-  height: 10vh;
+  height: 15vh;
   width: 100%;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  flex-direction: row;
 }
 
 article {
@@ -31,6 +32,14 @@ section {
   justify-content: center;
   display: flex;
 
+}
+
+p {
+  display: flex;
+}
+
+nav {
+  flex-direction: row;
 }
 
 .background {
@@ -63,6 +72,18 @@ section {
   width: 160px;
   height: 40px;
 
+}
+
+
+
+.nav-text {
+  /* align-self: flex-end; */
+  color: white;
+  /* justify-content: flex-end; */
+  margin: 0px;
+  width: 50px;
+  flex-direction: row;
+  font-size: 12px;
 }
 
 
