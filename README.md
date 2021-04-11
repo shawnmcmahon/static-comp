@@ -15,7 +15,6 @@ Product Screenshot' section below.
 - Review comp from the webpage that appears
 
 ### Technologies Implemented
-- Node.js
 - HTML/CSS
 - Normalize.css
 
