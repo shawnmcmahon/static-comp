@@ -34,8 +34,8 @@ button {
 
 header {
   background-color:#0AF5E8;
-  height: 15vh;
-  width: 1030px;
+  height: 125px;
+  width: 100%;
   display: flex;
   outline: none;
   border: none;
@@ -46,7 +46,7 @@ header {
 
 nav {
   display: flex;
-  height: 15vh;
+  height: 125px;
   width: 100%;
 }
 
@@ -65,7 +65,7 @@ section {
 
 }
 
-.div1 {
+/* .div1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
@@ -90,7 +90,7 @@ s
 .div9 { grid-area: 3 / 1 / 4 / 2; }
 .div10 { grid-area: 3 / 2 / 4 / 3; }
 .div11 { grid-area: 3 / 3 / 4 / 4; }
-.div12 { grid-area: 3 / 4 / 4 / 5; }
+.div12 { grid-area: 3 / 4 / 4 / 5; } */
 
 .streamer-name {
   font-size: 16px;
@@ -139,7 +139,7 @@ s
   margin-right: 10px;
   margin-top: 20px;
   align-self: flex-end;
-  color: white;
+  color: gray;
 }
 
 
@@ -152,14 +152,13 @@ s
 }
 
 .background {
-  display: grid;
-  grid-template-columns: repeat(4, 260px);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
   background-color: white;
   color: grey;
+  align-items: center;
 }
 
 
@@ -167,7 +166,7 @@ s
   display: flex;
   width: 250px;
   align-self: center;
-  margin-top: 10px;
+  margin: 5px;
   background-color: #F2F2F3;
   color: grey;
   filter: drop-shadow(1px 1px 1px gray);
@@ -179,7 +178,6 @@ s
   align-self: flex-start;
   height: 100px;
   width: 250px;
-  /* background-color: #0AF5E8; */
   border-color: red;
   display: flex;
   flex-direction: column;
@@ -188,8 +186,8 @@ s
 .card-url {
   align-self: center;
   background-color: white;
-  width: 200px;
-  height: 50px;
+  width: 225px;
+  height: 40px;
   color: grey;
   font-size: 12px;
   justify-content: flex-start;
@@ -198,7 +196,7 @@ s
 }
 
 .label-container {
-  height: 10vh;
+  height: 100px;
   width: 1030px;
   align-items: center;
   align-self: center;
@@ -206,15 +204,16 @@ s
 
 .nav-right {
   background-color: green;
-  height: 10vh;
+  height: 40px;
   width: 250px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   background-color: inherit;
+  align-self: flex-start;
 }
 
 .nav-text {
-  color: white;
+  color: gray;
   margin: 0px;
   width: 150px;
   font-size: 12px;
@@ -225,7 +224,7 @@ s
 }
 
 .nav-text-all-time {
-  color: white;
+  color: black;
   margin: 0px;
   width: 150px;
   font-size: 12px;
@@ -248,14 +247,16 @@ s
 
 
 .user-menu {
-  color: white;
+  color: gray;
   margin: 0px;
   width: 200px;
+  height: 30px;
   flex-direction: column;
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
   flex-wrap: wrap;
+  align-self: flex-start;
 
 }
 
@@ -361,7 +362,7 @@ div {
 
 header {
   background-color: #0AF5E8;
-  height: 15vh;
+  height: 125px;
   width: 100%;
   display: flex;
   outline: none;
@@ -370,7 +371,7 @@ header {
 
 nav {
   display: flex;
-  height: 15vh;
+  height: 125px;
   width: 100%;
 
 }
@@ -437,7 +438,7 @@ section {
   margin-right: 10px;
   margin-top: 20px;
   align-self: flex-end;
-  color: white;
+  color: gray;
 }
 
 
@@ -451,10 +452,11 @@ section {
 .background {
   height: 100%;
   width: 100%;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   background-color: white;
   color: grey;
-  align-items: center;
+  align-items: flex-start;
 }
 
 
@@ -462,7 +464,7 @@ section {
   display: flex;
   width: 250px;
   align-self: center;
-  margin-top: 10px;
+  margin: 5px;
   background-color: #F2F2F3;
   color: grey;
   filter: drop-shadow(1px 1px 1px gray);
@@ -482,8 +484,8 @@ section {
 .card-url {
   align-self: center;
   background-color: white;
-  width: 200px;
-  height: 50px;
+  width: 225px;
+  height: 40px;
   color: grey;
   font-size: 12px;
   justify-content: flex-start;
@@ -491,18 +493,18 @@ section {
 }
 
 .nav-right {
-  background-color: green;
-  height: 10vh;
+  height: 40px;
   width: 250px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   background-color: inherit;
+  align-self: flex-start;
 }
 
 .nav-text {
-  color: white;
+  color: grey;
   margin: 0px;
-  width: 150px;
+  width: 50px;
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
@@ -512,13 +514,12 @@ section {
 
 
 .nav-text-all-time {
-  color: white;
+  color: black;
   margin: 0px;
-  width: 150px;
+  width: 50px;
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
-  color: gray;
   align-self: flex-end;
   padding-bottom: 20px;
 }
@@ -531,9 +532,10 @@ section {
 
 
 .user-menu {
-  color: white;
+  color: gray;
   margin: 0px;
   width: 200px;
+  height: 30px;
   flex-direction: column;
   font-size: 12px;
   margin: 5px;
