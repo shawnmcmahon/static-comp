@@ -12,6 +12,7 @@ main {
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Lato', sans-serif;
   overflow: scroll;
+
 }
 
 
@@ -32,7 +33,7 @@ button {
 
 
 header {
-  background-color: #10EFA1;
+  background-color:#0AF5E8;
   height: 15vh;
   width: 1030px;
   display: flex;
@@ -118,7 +119,7 @@ s
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 0px;
-  color: #EF105E;
+  color: #F50A17;
 
 }
 
@@ -140,6 +141,7 @@ s
   align-self: flex-end;
   color: white;
 }
+
 
 
 
@@ -170,13 +172,14 @@ s
   color: grey;
   filter: drop-shadow(1px 1px 1px gray);
 
+
 }
 
 .card-header {
   align-self: flex-start;
   height: 100px;
   width: 250px;
-  background-color: #FC0359;
+  /* background-color: #0AF5E8; */
   border-color: red;
   display: flex;
   flex-direction: column;
@@ -190,13 +193,21 @@ s
   color: grey;
   font-size: 12px;
   justify-content: flex-start;
+  text-decoration: none;
 
+}
+
+.label-container {
+  height: 10vh;
+  width: 1030px;
+  align-items: center;
+  align-self: center;
 }
 
 .nav-right {
   background-color: green;
   height: 10vh;
-  width: 150px;
+  width: 250px;
   display: flex;
   flex-direction: row-reverse;
   background-color: inherit;
@@ -205,16 +216,32 @@ s
 .nav-text {
   color: white;
   margin: 0px;
-  width: 50px;
+  width: 150px;
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.nav-text-all-time {
+  color: white;
+  margin: 0px;
+  width: 150px;
+  font-size: 12px;
+  margin: 5px;
+  background-color: inherit;
+  color: black;
+  align-self: flex-end;
+  padding-bottom: 10px;
+
+
+
 }
 
 .streamers {
   font-size: 36px;
   padding-top: 20px;
-  margin-left: 180px;
   color: gray;
   flex-direction: column;
 }
@@ -238,45 +265,45 @@ s
 }
 
 .ninja {
-  background-image: url('./assets/header_ninja.png');
+  background-image: url('./assets/header2_ninja.png');
 }
 
 .ludwig {
-  background-image: url('./assets/header_ludwig.png');
+  background-image: url('./assets/header2_ludwig.png');
 }
 
 .ranboolive {
-  background-image: url('./assets/header_ranboolive.png')
+  background-image: url('./assets/header2_ranboolive.png')
 }
 
 .shroud {
-  background-image: url('./assets/header_shroud.png');
+  background-image: url('./assets/header2_shroud.png');
 }
 
 .summit {
-  background-image: url('./assets/header_summit.png');
+  background-image: url('./assets/header2_summit.png');
 }
 
 .xqc {
-  background-image: url('./assets/header_xqc.png');
+  background-image: url('./assets/header2_xqc.png');
 }
 
 .trymacs {
-  background-image: url('./assets/header_trymacs.png');
+  background-image: url('./assets/header2_trymacs.png');
 }
 
 .nickmercs {
-  background-image: url('./assets/header_nicmercs.png');
+  background-image: url('./assets/header2_nickmercs.png');
 }
 
 .tfue {
-  background-image: url('./assets/header_tfue.png');
+  background-image: url('./assets/header2_tfue.png');
   outline: none;
   border: none;
 }
 
 .hasanabi {
-  background-image: url('./assets/header_hasanabi.png');
+  background-image: url('./assets/header2_hasanabi.png');
   outline: none;
   border: none;
 }
@@ -308,6 +335,7 @@ main {
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Lato', sans-serif;
   overflow: scroll;
+
 }
 
 
@@ -317,6 +345,7 @@ article {
   flex-direction: column;
   outline: none;
   border: none;
+
 
 }
 
@@ -331,7 +360,7 @@ div {
 }
 
 header {
-  background-color: #10EFA1;
+  background-color: #0AF5E8;
   height: 15vh;
   width: 100%;
   display: flex;
@@ -388,7 +417,7 @@ section {
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 0px;
-  color: #EF105E;
+  color: #F50A17;
 
 }
 
@@ -464,7 +493,7 @@ section {
 .nav-right {
   background-color: green;
   height: 10vh;
-  width: 150px;
+  width: 250px;
   display: flex;
   flex-direction: row-reverse;
   background-color: inherit;
@@ -473,10 +502,25 @@ section {
 .nav-text {
   color: white;
   margin: 0px;
-  width: 50px;
+  width: 150px;
   font-size: 12px;
   margin: 5px;
   background-color: inherit;
+  align-self: flex-end;
+  padding-bottom: 20px;
+}
+
+
+.nav-text-all-time {
+  color: white;
+  margin: 0px;
+  width: 150px;
+  font-size: 12px;
+  margin: 5px;
+  background-color: inherit;
+  color: gray;
+  align-self: flex-end;
+  padding-bottom: 20px;
 }
 
 .streamers {
@@ -504,45 +548,45 @@ section {
 }
 
 .ninja {
-  background-image: url('./assets/header_ninja.png');
+  background-image: url('./assets/header2_ninja.png');
 }
 
 .ludwig {
-  background-image: url('./assets/header_ludwig.png');
+  background-image: url('./assets/header2_ludwig.png');
 }
 
 .ranboolive {
-  background-image: url('./assets/header_ranboolive.png')
+  background-image: url('./assets/header2_ranboolive.png')
 }
 
 .shroud {
-  background-image: url('./assets/header_shroud.png');
+  background-image: url('./assets/header2_shroud.png');
 }
 
 .summit {
-  background-image: url('./assets/header_summit.png');
+  background-image: url('./assets/header2_summit.png');
 }
 
 .xqc {
-  background-image: url('./assets/header_xqc.png');
+  background-image: url('./assets/header2_xqc.png');
 }
 
 .trymacs {
-  background-image: url('./assets/header_trymacs.png');
+  background-image: url('./assets/header2_trymacs.png');
 }
 
 .nickmercs {
-  background-image: url('./assets/header_nicmercs.png');
+  background-image: url('./assets/header2_nickmercs.png');
 }
 
 .tfue {
-  background-image: url('./assets/header_tfue.png');
+  background-image: url('./assets/header2_tfue.png');
   outline: none;
   border: none;
 }
 
 .hasanabi {
-  background-image: url('./assets/header_hasanabi.png');
+  background-image: url('./assets/header2_hasanabi.png');
   outline: none;
   border: none;
 }
