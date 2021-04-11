@@ -1,3 +1,4 @@
+<img width="1111" alt="Screen Shot 2021-04-11 at 4 24 59 PM" src="https://user-images.githubusercontent.com/73731359/114323567-0958cb80-9ae3-11eb-83a0-b79037f524ec.png">
 # Static Comp
 
 ### Description
@@ -34,5 +35,10 @@ Product Screenshot' section below.
 [https://shawnmcmahon.github.io/static-comp/]
 
 ### Final Product Screenshot
+<img width="1111" alt="Screen Shot 2021-04-11 at 4 24 59 PM" src="https://user-images.githubusercontent.com/73731359/114323588-1aa1d800-9ae3-11eb-8a47-b7d4f611f365.png">
+
+<img width="455" alt="Screen Shot 2021-04-11 at 4 25 50 PM" src="https://user-images.githubusercontent.com/73731359/114323593-1f668c00-9ae3-11eb-98e9-7595ba93edde.png">
+
 
 ### Original Comp Screenshot
+<img width="1098" alt="Screen Shot 2021-04-11 at 4 30 03 PM" src="https://user-images.githubusercontent.com/73731359/114323620-46bd5900-9ae3-11eb-8909-3eaed4853fab.png">
