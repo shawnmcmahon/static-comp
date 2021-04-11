@@ -34,8 +34,11 @@ Product Screenshot' section below.
 [https://shawnmcmahon.github.io/static-comp/]
 
 ### Final Product Screenshot
+
+#### Desktop View
 <img width="1111" alt="Screen Shot 2021-04-11 at 4 24 59 PM" src="https://user-images.githubusercontent.com/73731359/114323588-1aa1d800-9ae3-11eb-8a47-b7d4f611f365.png">
 
+#### Mobile View
 <img width="455" alt="Screen Shot 2021-04-11 at 4 25 50 PM" src="https://user-images.githubusercontent.com/73731359/114323593-1f668c00-9ae3-11eb-98e9-7595ba93edde.png">
 
 
