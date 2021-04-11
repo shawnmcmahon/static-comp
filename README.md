@@ -1,4 +1,3 @@
-<img width="1111" alt="Screen Shot 2021-04-11 at 4 24 59 PM" src="https://user-images.githubusercontent.com/73731359/114323567-0958cb80-9ae3-11eb-83a0-b79037f524ec.png">
 # Static Comp
 
 ### Description
