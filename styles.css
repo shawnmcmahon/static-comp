@@ -1,47 +1,40 @@
 @media screen and (min-width: 1041px) {
 
-
-
 html,
 body
 main {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Lato', sans-serif;
+  height: 100%;
   overflow: scroll;
-
+  width: 100%;
 }
 
-
 article {
-  justify-content: center;
+  border: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   outline: none;
-  border: none;
-
 }
 
 button {
-  outline: none;
   border: none;
-
+  outline: none;
 }
 
-
 header {
-  background-color:#0AF5E8;
-  height: 125px;
-  width: 100%;
-  display: flex;
-  outline: none;
-  border: none;
   align-self: center;
   align-items: center;
+  background-color:#0AF5E8;
+  border: none;
+  display: flex;
+  height: 125px;
   margin-right: 10px;
+  outline: none;
+  width: 100%;
 }
 
 nav {
@@ -57,53 +50,24 @@ p {
 }
 
 section {
-  justify-content: center;
+  border: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   outline: none;
-  border: none;
-
 }
-
-/* .div1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-.div2 {
-  grid-area: 1 / 2 / 2 / 3;
-
- }
-
-.div3 {
-   grid-area: 1 / 3 / 2 / 4;
-s
-  }
-
-.div4 {
-   grid-area: 1 / 4 / 2 / 5;
-
- }
-.div5 { grid-area: 2 / 1 / 3 / 2; }
-.div6 { grid-area: 2 / 2 / 3 / 3; }
-.div7 { grid-area: 2 / 3 / 3 / 4; }
-.div8 { grid-area: 2 / 4 / 3 / 5; }
-.div9 { grid-area: 3 / 1 / 4 / 2; }
-.div10 { grid-area: 3 / 2 / 4 / 3; }
-.div11 { grid-area: 3 / 3 / 4 / 4; }
-.div12 { grid-area: 3 / 4 / 4 / 5; } */
 
 .streamer-name {
   font-size: 16px;
   padding-left: 10px;
   padding-top: 10px;
-
 }
 
 .date-achieved {
   font-size: 10px;
-  padding-left: 10px;
-  padding-bottom: 15px;
   margin-top: 0px;
+  padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 .most-played-game,
@@ -115,35 +79,28 @@ s
 }
 
 .sub-count {
-  font-size: 24px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  margin-top: 0px;
   color: #F50A17;
-
+  font-size: 24px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .game-name {
-  padding-left: 10px;
   font-size: 16px;
   margin-top: 0px;
+  padding-left: 10px;
 }
-
-
-
 
 .all-time,
 .position {
+  align-self: flex-end;
+  color: gray;
   flex-direction: column;
   margin-bottom: 0px;
   margin-right: 10px;
   margin-top: 20px;
-  align-self: flex-end;
-  color: gray;
 }
-
-
-
 
 .position {
   font-size: 30px;
@@ -152,112 +109,110 @@ s
 }
 
 .background {
-  height: 100%;
-  width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: center;
   background-color: white;
   color: grey;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
 }
 
-
 .card {
-  display: flex;
-  width: 250px;
   align-self: center;
-  margin: 5px;
   background-color: #F2F2F3;
   color: grey;
+  display: flex;
   filter: drop-shadow(1px 1px 1px gray);
+  margin: 5px;
+  width: 250px;
+}
 
-
+.card:hover {
+  align-self: center;
+  background-color: #F2F2F3;
+  color: grey;
+  display: flex;
+  filter: drop-shadow(1px 1px 1px gray);
+  margin: 5px;
+  opacity: 0.5;
+  width: 250px;
 }
 
 .card-header {
   align-self: flex-start;
-  height: 100px;
-  width: 250px;
   border-color: red;
   display: flex;
   flex-direction: column;
+  height: 100px;
+  width: 250px;
 }
 
 .card-url {
   align-self: center;
   background-color: white;
-  width: 225px;
-  height: 40px;
   color: grey;
   font-size: 12px;
+  height: 40px;
   justify-content: flex-start;
   text-decoration: none;
-
+  width: 225px;
 }
 
 .label-container {
-  height: 100px;
-  width: 1030px;
   align-items: center;
   align-self: center;
+  height: 100px;
+  width: 1030px;
 }
 
 .nav-right {
-  background-color: green;
+  align-self: flex-start;
+  background-color: inherit;
   height: 40px;
   width: 250px;
   display: flex;
   flex-direction: column;
-  background-color: inherit;
-  align-self: flex-start;
 }
 
 .nav-text {
+  align-self: flex-end;
+  background-color: inherit;
   color: gray;
-  margin: 0px;
-  width: 150px;
   font-size: 12px;
   margin: 5px;
-  background-color: inherit;
-  align-self: flex-end;
   padding-bottom: 10px;
+  width: 150px;
 }
 
 .nav-text-all-time {
+  align-self: flex-end;
   color: black;
-  margin: 0px;
-  width: 150px;
+  background-color: inherit;
   font-size: 12px;
   margin: 5px;
-  background-color: inherit;
-  color: black;
-  align-self: flex-end;
   padding-bottom: 10px;
-
-
-
+  width: 150px;
 }
 
 .streamers {
-  font-size: 36px;
-  padding-top: 20px;
   color: gray;
   flex-direction: column;
+  font-size: 36px;
+  padding-top: 20px;
 }
 
 
 .user-menu {
-  color: gray;
-  margin: 0px;
-  width: 200px;
-  height: 30px;
-  flex-direction: column;
-  font-size: 12px;
-  margin: 5px;
-  background-color: inherit;
-  flex-wrap: wrap;
   align-self: flex-start;
-
+  background-color: inherit;
+  color: gray;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 12px;
+  height: 30px;
+  margin: 5px;
+  width: 200px;
 }
 
 .url {
@@ -310,18 +265,6 @@ s
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1040px) {
@@ -331,49 +274,40 @@ body
 main {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   font-family: 'Dela Gothic One', cursive;
   font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
   overflow: scroll;
-
 }
 
-
 article {
-  justify-content: center;
+  border: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   outline: none;
-  border: none;
-
-
 }
 
 button {
-  outline: none;
   border: none;
-
+  outline: none;
 }
 
-div {
-
-}
 
 header {
   background-color: #0AF5E8;
-  height: 125px;
-  width: 100%;
-  display: flex;
-  outline: none;
   border: none;
+  display: flex;
+  height: 125px;
+  outline: none;
+  width: 100%;
 }
 
 nav {
   display: flex;
   height: 125px;
   width: 100%;
-
 }
 
 p {
@@ -383,65 +317,57 @@ p {
 }
 
 section {
-  justify-content: center;
+  border: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   outline: none;
-  border: none;
-
 }
 
 .streamer-name {
   font-size: 16px;
   padding-left: 10px;
   padding-top: 10px;
-
 }
 
 .date-achieved {
   font-size: 10px;
-  padding-left: 10px;
-  padding-bottom: 15px;
   margin-top: 0px;
+  padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 .most-played-game,
 .sub {
   font-size: 12px;
+  margin-bottom: 0px;
   padding-left: 10px;
   padding-top: 10px;
-  margin-bottom: 0px;
 }
 
 .sub-count {
-  font-size: 24px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  margin-top: 0px;
   color: #F50A17;
-
+  font-size: 24px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .game-name {
-  padding-left: 10px;
   font-size: 16px;
   margin-top: 0px;
+  padding-left: 10px;
 }
-
-
-
 
 .all-time,
 .position {
+  align-self: flex-end;
+  color: gray;
   flex-direction: column;
   margin-bottom: 0px;
   margin-right: 10px;
   margin-top: 20px;
-  align-self: flex-end;
-  color: gray;
 }
-
-
 
 .position {
   font-size: 30px;
@@ -450,98 +376,101 @@ section {
 }
 
 .background {
-  height: 100%;
-  width: 100%;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: flex-start;
   background-color: white;
   color: grey;
-  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
 }
 
 
 .card {
-  display: flex;
-  width: 250px;
   align-self: center;
-  margin: 5px;
   background-color: #F2F2F3;
   color: grey;
+  display: flex;
   filter: drop-shadow(1px 1px 1px gray);
+  margin: 5px;
+  width: 250px;
+}
 
+.card:hover {
+  align-self: center;
+  background-color: #F2F2F3;
+  color: grey;
+  display: flex;
+  filter: drop-shadow(1px 1px 1px gray);
+  margin: 5px;
+  opacity: 0.5;
+  width: 250px;
 }
 
 .card-header {
   align-self: flex-start;
-  height: 100px;
-  width: 250px;
   background-color: #FC0359;
   border-color: red;
   display: flex;
   flex-direction: column;
+  height: 100px;
+  width: 250px;
 }
 
 .card-url {
   align-self: center;
   background-color: white;
-  width: 225px;
-  height: 40px;
   color: grey;
   font-size: 12px;
+  height: 40px;
   justify-content: flex-start;
-
+  width: 225px;
 }
 
 .nav-right {
-  height: 40px;
-  width: 250px;
+  align-self: flex-start;
+  background-color: inherit;
   display: flex;
   flex-direction: column;
-  background-color: inherit;
-  align-self: flex-start;
+  height: 40px;
+  width: 250px;
 }
 
 .nav-text {
-  color: grey;
-  margin: 0px;
-  width: 50px;
-  font-size: 12px;
-  margin: 5px;
-  background-color: inherit;
   align-self: flex-end;
+  background-color: inherit;
+  color: grey;
+  font-size: 12px;
   padding-bottom: 20px;
+  margin: 5px;
+  width: 50px;
 }
 
-
 .nav-text-all-time {
+  align-self: flex-end;
+  background-color: inherit;
   color: black;
-  margin: 0px;
-  width: 50px;
   font-size: 12px;
   margin: 5px;
-  background-color: inherit;
-  align-self: flex-end;
   padding-bottom: 20px;
+  width: 50px;
 }
 
 .streamers {
+  color: gray;
   font-size: 22px;
   padding-top: 20px;
-  color: gray;
 }
 
-
 .user-menu {
-  color: gray;
-  margin: 0px;
-  width: 200px;
-  height: 30px;
-  flex-direction: column;
-  font-size: 12px;
-  margin: 5px;
   background-color: inherit;
+  color: gray;
+  flex-direction: column;
   flex-wrap: wrap;
-
+  font-size: 12px;
+  height: 30px;
+  margin: 5px;
+  width: 200px;
 }
 
 .url {
@@ -592,9 +521,5 @@ section {
   outline: none;
   border: none;
 }
-
-
-
-
 
 }
