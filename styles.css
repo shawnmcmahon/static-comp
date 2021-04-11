@@ -1,4 +1,6 @@
-/*
+@media screen and (min-width: 1041px) {
+
+
 
 html,
 body
@@ -279,7 +281,7 @@ s
   border: none;
 }
 
- */
+}
 
 
 
