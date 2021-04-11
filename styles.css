@@ -135,7 +135,7 @@ section {
   display: flex;
   filter: drop-shadow(1px 1px 1px gray);
   margin: 5px;
-  opacity: 0.5;
+  opacity: 0.6;
   width: 250px;
 }
 
