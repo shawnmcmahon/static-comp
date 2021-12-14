@@ -26,8 +26,6 @@ Product Screenshot' section below.
 
 ### Contributors
 - Shawn McMahon
-- Jon Schlandt
-- Nathaniel Millard
 
 ### Git Pages
 [https://shawnmcmahon.github.io/static-comp/]
